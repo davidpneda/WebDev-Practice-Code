@@ -1,0 +1,90 @@
+<!-- Form Exericse -->
+<!-- Requires: Text input, password input, email input, radio buttons
+	select tag, and checkbox input. -->
+<!-- BONUS: add validate length of password; must be between 5 and 10
+	characters. MUST BE IN HTML -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercise 3</title>
+</head>
+<body>
+<h1>Register</h1>
+
+<form>
+	<label>
+		First Name: 
+		<input type="text" name="firstName" placeholder="John" required>
+	</label>
+
+	<label>
+		Last Name:
+		<input type="text" name="lastName" placeholder="Smith" required>
+	</label>
+
+	<div>
+		<label>
+			Male
+			<input type="radio" name="gender" id="Male" value="Male">
+		</label>
+
+		<label>
+			Female
+			<input type="radio" name="gender" id="Female" value="Female">
+		</label>
+
+		<label>
+			Other
+			<input type="radio" name="gender" id="Other" value="Other">
+		</label>
+	</div>
+
+	<div>
+		<label>
+			Email:
+			<input type="Email" name="email" placeholder="your email" required>
+		</label>
+
+		<label>
+			Password:
+			<input type="Password" name="password" pattern=".{5,10}" required title="Password must be between 5 and 10 characters">
+		</label>
+	</div>
+
+	<div>
+		<label>
+			Birthday:
+			<select name="Month">
+				<option>Month</option>
+				<option value="01">January</option>
+				<option value="02">February</option>
+				<option value="03">March</option>
+			</select>
+
+			<select name="Day">
+				<option>Day</option>
+				<option value="01">01</option>
+				<option value="02">02</option>
+				<option value="03">03</option>
+			</select>
+
+			<select name="Year">
+				<option>Year</option>
+				<option value="1990">1990</option>
+				<option value="1991">1991</option>
+				<option value="1992">1992</option>
+			</select>
+		</label>
+	</div>
+
+	<div>
+		<label for="agreed">I agreed to the terms and conditions:</label>
+		<input type="checkbox" name="agreed" id="agreed">
+	</div>
+
+	<input type="submit">
+</form>
+ 
+</body>
+</ht

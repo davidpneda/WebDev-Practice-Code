@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Specificity</title>
+	<style type="text/css">
+		/*here we see multiple styles targeting the same element*/
+		/*the CSS chooses the more specific element selector to be what is shown*/
+		/*there is a hiegerachy of specificity:*/
+		/*element selectors, class selectors, id selectors, and inline styling*/
+		/*with inline styling being the highest priority*/
+		
+		body { 
+			color: red;
+		}
+
+		
+		ul {
+			color: blue;
+		}
+		
+		li {
+			color: orange;
+		}
+
+		.highlight {
+			color: yellow;
+		}
+
+		#special {
+			color: pink;
+		}
+
+	</style>
+</head>
+<body>
+
+<p>
+	HELLO!!!
+</p>
+
+<ul>
+	<li id="special" class="highlight">John</li>
+	<li>Paul</li>
+	<li>Ringo</li>
+	<li class="highlight">George</li>
+</ul>
+
+</body>
+</html>

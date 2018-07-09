@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Demo</title>
+</head>
+<body>
+
+<h1>Login</h1>
+
+<!-- action - where the form sends data to -->
+<!-- method - what HTTP method (get/post) -->
+
+<form action="http://wikipedia.org" method="GET">
+	<!-- form one of label tag: connects label and input tags using nesting -->
+	<label>
+		Email:
+		<input name="Username" type="Email" placeholder="Email" required>
+	</label>
+
+	<!-- form two of label tag: uses id and for attributes to connect
+	label and input tags instead of nesting -->
+	<label for="Password">Password:</label>
+	<input id="Password" type="text" placeholder="password" required>
+
+	<input type="Submit">
+</form>
+
+</body>
+</html>

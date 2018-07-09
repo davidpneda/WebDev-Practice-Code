@@ -1,0 +1,33 @@
+/*example of hexadecimal color system*/
+h1{
+	color: #5DB340;
+
+	/*borders require a color, width, and style*/
+	/*	border-color: purple;
+	border-width: 5px;
+	border-style: dotted;*/
+
+	/*two possible way of setting border properties:
+	- setting properties individually (above)
+	- setting them together with border property (below)*/
+	border: 2px dotted blue;
+}
+
+/*example of RGB color system*/
+h4{
+	color: rgb(150,0,0);
+	background: rgb(255,100,80);
+}
+
+/*example of RGBA color system*/
+li{
+	color: rgba(0,0,120,1);
+}
+
+body{
+/*	background: url(https://upload.wikimedia.org/wikipedia/en/3/3d/MountainAshFloor.jpg);
+	prevents background image from being tiled
+	background-repeat: no-repeat; 
+	/*stretches background image to cover whole page
+	background-size:cover;*/
+}

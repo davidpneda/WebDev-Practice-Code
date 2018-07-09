@@ -1,0 +1,12 @@
+/*the general li selector applies properties to all li's*/
+li{
+	border:2px solid red;
+}
+/*using an id selector specifically sets properties to one id*/
+#special{
+	background:yellow;
+}
+/*classes allow for choosing which element have properties of class attributed to them*/
+.completed{
+	text-decoration: line-through;
+}

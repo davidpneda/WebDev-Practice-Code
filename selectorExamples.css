@@ -1,0 +1,36 @@
+/*element selector*/
+li{
+
+}
+/*class selector*/
+.hello{
+
+}
+/*id selector*/
+#name{
+
+}
+/*star selector - applies properties to everything in connected page*/
+*{
+
+}
+/*descendant selector - selects elements that descend from another
+(i.e.- every anchor tag within an li)*/
+li a{
+
+}
+/*adjacent selector - allows you to select elements that are not nested in
+another element but next to them/adjacent (i.e.- every h4 thats after a ul*/
+h4 + ul{
+
+}
+/*attribute selector - selects elements based off of attribute 
+(i.e.- all links with google.com)*/
+a[href="http://www.google.com"]{
+
+}
+/*nth of type - given a number, selected every nth element of a certain 
+type (i.e.- the 3rd ul)*/
+ul:nth-of-type(3){
+	
+}
